@@ -5,7 +5,7 @@ Building an RSS feed reader in Ruby
 ## Pre-requisite
 
 Ruby must be installed on your machine before you can run this app.
-Alternatively, you can run the code in OneCompiler (Ruby): [https://onecompiler.com/ruby](https://onecompiler.com/ruby).
+Alternatively, you could run the code in OneCompiler (Ruby): [https://onecompiler.com/ruby](https://onecompiler.com/ruby).
 
 ## Launching the app
 
