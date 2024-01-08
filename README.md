@@ -17,4 +17,4 @@ ruby app.rb
 
 ## Helpful links
 
-- [Consuming RSS in RDoc 6.0.1](https://docs.ruby-lang.org/en/2.2.0/RSS.html#module-RSS-label-Consuming+RSS)
+- [Consuming RSS in RDoc 6.4.0](https://ruby-doc.org/3.1.4/gems/rss/RSS.html)
