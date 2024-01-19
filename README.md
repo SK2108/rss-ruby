@@ -2,7 +2,7 @@
 
 Building an RSS feed reader in Ruby
 
-## Pre-requisite
+## Prerequisite
 
 Ruby must be installed on your machine before you can run this app.
 Alternatively, you could run the code in OneCompiler (Ruby): [https://onecompiler.com/ruby](https://onecompiler.com/ruby).
@@ -13,6 +13,14 @@ Run the following command
 
 ```ruby
 ruby app.rb
+```
+
+## Run RSpec tests
+
+Use the command below
+
+```markdown
+bundle exec rspec
 ```
 
 ## Helpful links
