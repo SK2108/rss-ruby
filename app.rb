@@ -1,11 +1,17 @@
-require 'rss'
-require 'open-uri'
+# frozen_string_literal: true
 
-url = ''
-open(url) do |rss|
-  feed = RSS::Parser.parse(rss)
-  puts "Title: #{feed.channel.title}"
-  feed.items.each do |item|
-    puts "Item: {item.title}"
-  end
+require 'rss'
+
+# Parsing the RSS feed from the URL
+rss = RSS::Parser.parse('https://www.positive.news/rss')
+
+# Accessing the parsed feed data
+puts "Feed Title: #{rss.channel.title}"
+puts "Description: #{rss.channel.description}"
+puts "Link: #{rss.channel.link}"
+
+rss.items.each do |item|
+  puts "Post title: #{item.title}"
+  puts "Summary: #{item.description}"
+  puts "Link: #{item.link}"
 end
